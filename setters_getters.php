@@ -8,13 +8,14 @@
         }
 
         function set_values(){
-            $this->door_count = 10;
+             $this->door_count = 10;
         }
     }
 
 $bmw = new Cars();
 
-
+$bmw->set_values();
+$bmw->get_values();
 
 
 ?>
